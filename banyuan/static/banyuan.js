@@ -44,8 +44,6 @@ function controlHeader(){
 let btnEle = document.getElementsByClassName('header-button')[0]
 let guideEle = document.getElementsByClassName('header-right')[0]
 
-
-
 btnEle.onclick = function(){
 
     if(guideEle.style.display == 'flex'){
@@ -62,7 +60,6 @@ window.onresize = function(){
         guideEle.style.display =  'none'
     }
 }
-
 
 window.onload = function(){
 
